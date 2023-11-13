@@ -2,6 +2,8 @@
 // @name         OmegaCube Easier Reading
 // @namespace    http://tampermonkey.net/
 // @version      0.6
+// @updateURL    https://raw.githubusercontent.com/ILM-James/OmegaCube-CSS-Changes/main/OmegaCubeStyling.js
+// @downloadURL  https://raw.githubusercontent.com/ILM-James/OmegaCube-CSS-Changes/main/OmegaCubeStyling.js
 // @description  UX/UI improvements for OmegaCube
 // @author       James Jenkins
 // @match        https://ilm.omegacube.com/*
