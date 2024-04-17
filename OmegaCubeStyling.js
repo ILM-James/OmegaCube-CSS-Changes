@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name         OmegaCube Easier Reading
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.3
 // @updateURL    https://raw.githubusercontent.com/ILM-James/OmegaCube-CSS-Changes/main/OmegaCubeStyling.js
 // @downloadURL  https://raw.githubusercontent.com/ILM-James/OmegaCube-CSS-Changes/main/OmegaCubeStyling.js
 // @description  UX/UI improvements for OmegaCube
 // @author       James Jenkins
 // @match        https://ilm.omegacube.com/*
 // @match        *ilm.omegacube.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=omegacube.com
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=omegacube.comchrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/options.html#nav=f78eed3a-bc40-4dbe-ac16-6622f32f56ce+editor
 // @grant        GM_addStyle
 // ==/UserScript==
-GM_addStyle ('#my{zoom: 60%;} .btn { font-family: Helvetica !important; font-size: 0.8rem !important; padding: 0.5rem !important; background-size: 100% 100%!important; font-weight: normal !important; background: linear-gradient(#FCFEFE, #D1E8EF) !important; background-repeat: no-repeat;}.t_RegionHeader { background-image: linear-gradient(#C8DBED, #92BADD) !important; background-size: 1px 20px; background-repeat: repeat-x; font-size: 1.5em !important;}.t_RegionHeader_otherlinks { left: 50% !important; top: auto !important; background-color: #CACDCF !important;}.btnDropdown { font-family: Helvetica; font-size: 0.8rem; font-weight: normal; padding: 0.5rem 0.1rem 0.5rem 0.1rem; background-image: linear-gradient(#FCFEFE, #D1E8EF); background-size: 100%; border-left:#a5a9b6 1px solid; border-top:#a5a9b6 1px solid; border-right:#7b8194 1px solid; border-bottom:#7b8194 1px solid;}.btnsub { background-color: #E3EDF6;}.gridhDRClsRep1 { background-image: linear-gradient(#FCFEFE, #D1E8EF) !important;} /*.lbfont2 { box-shadow: 1px 1px 1px 1px darkgrey inset !important;}*/ .lbfont4 { box-shadow: 1px 1px 1px 1px darkgrey inset !important;} .lbfont6 { font-size: 2em;} .dgCls { margin-left: auto; margin-right: auto; .relatedlinks1 .lbfont { font-size: 0.8em !important; }')
+GM_addStyle ('html{zoom: 130%;} .btn { font-family: Helvetica !important; font-size: 0.8rem !important; padding: 0.5rem !important; background-size: 100% 100%!important; font-weight: normal !important; background: linear-gradient(#FCFEFE, #D1E8EF) !important; background-repeat: no-repeat;}.t_RegionHeader { background-image: linear-gradient(#C8DBED, #92BADD) !important; background-size: 1px 20px; background-repeat: repeat-x; font-size: 1.5em !important;}.t_RegionHeader_otherlinks { left: 50% !important; top: auto !important; background-color: #CACDCF !important;}.btnDropdown { font-family: Helvetica; font-size: 0.8rem; font-weight: normal; padding: 0.5rem 0.1rem 0.5rem 0.1rem; background-image: linear-gradient(#FCFEFE, #D1E8EF); background-size: 100%; border-left:#a5a9b6 1px solid; border-top:#a5a9b6 1px solid; border-right:#7b8194 1px solid; border-bottom:#7b8194 1px solid;}.btnsub { background-color: #E3EDF6;}.gridhDRClsRep1 { background-image: linear-gradient(#FCFEFE, #D1E8EF) !important;} /*.lbfont2 { box-shadow: 1px 1px 1px 1px darkgrey inset !important;}*/ .lbfont4 { box-shadow: 1px 1px 1px 1px darkgrey inset !important;} .lbfont6 { font-size: 2em;} .dgCls { margin-left: auto; margin-right: auto; .relatedlinks1 { font-size: 0.8em !important; } td.logoCell { width: 25% } #ctl00_ContentPlaceHolder1_mpanelUpdate { height: 17.778px !important; }')
 
 // table { table-layout: fixed; width: 100%; }
 // body { min-width: 640px !important; max-width: 75% !important; margin: auto !important; }
